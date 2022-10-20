@@ -1,0 +1,5 @@
+Instale la herramienta de compromiso previo usando pip3:pip3 install --user pre-commit
+Compruebe si la ruta donde está instalado el compromiso previo se exporta en su RUTA. Si no lo es, se le suma .
+Cree una carpeta ~/.config/git/hookscon estos dos archivos dentro de PRE-COMMIT y POST-COMMIT (Chequear si están  los archivos creados en carpeta hooks para no volverlos a crear )
+Establecer como ejecutables:sudo chmod a+x post-commit & sudo chmod a+x pre-commit
+Establezca la configuración local de Git:git config --global core.hooksPath /Users/{nombre_usuario}/Users/{nombre_usuario}/.config/git/hooks/
